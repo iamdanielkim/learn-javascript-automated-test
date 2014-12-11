@@ -1,0 +1,463 @@
+<!DOCTYPE HTML>
+<html lang="en-US" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Karma 설치하기 | </title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 1.0.3">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    
+    <link rel="next" href="../setup/w_protractor.html" />
+    
+    
+    <link rel="prev" href="../setup/README.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+<link rel="stylesheet" href="../gitbook/style.css">
+
+
+        
+    <div class="book"  data-level="2.1" data-basepath=".." data-revision="1411453260715">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+    	
+    	
+    	
+
+        
+
+        
+    
+        
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                        <i class="fa fa-check"></i>
+                        
+                         Introduction
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1" data-path="setup/build.html">
+            
+                
+                    <a href="../setup/build.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                         빌드 w/ Grunt
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="1.1" data-path="setup/coffeescript.html">
+            
+                
+                    <a href="../setup/coffeescript.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                         Coffeescript
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.2" data-path="setup/w_grunt.html">
+            
+                
+                    <a href="../setup/w_grunt.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                         Grunt 설치하기
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.3" data-path="setup/grunt_preprocessor____js.html">
+            
+                
+                    <a href="../setup/grunt_preprocessor____js.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                         grunt preprocessor를 사용한 환경 별 JS 로딩 변경
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2" data-path="setup/README.html">
+            
+                
+                    <a href="../setup/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                         단위 테스트 w/ Karma
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter active" data-level="2.1" data-path="setup/install.html">
+            
+                
+                    <a href="../setup/install.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                         Karma 설치하기
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.2" data-path="setup/w_protractor.html">
+            
+                
+                    <a href="../setup/w_protractor.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                         테스트 w/ Karma, Mocha
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                         기능 테스트 w/ Protractor
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4" data-path="README">
+            
+                
+                    <a href="../README">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                         배포
+                    </a>
+                
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Published using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle share dropdown"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">Twitter</button>
+                <button type="button" data-sharing="google-plus" class="button">Google</button>
+                <button type="button" data-sharing="facebook" class="button">Facebook</button>
+                <button type="button" data-sharing="weibo" class="button">Weibo</button>
+                <button type="button" data-sharing="instapaper" class="button">Instapaper</button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" ></a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-gitbook_2231">
+                    
+                        <h1 id="karma-">Karma 설치하기</h1>
+<p>karma를 통해 단위 테스트환경을 구성하고 테스트를 자동화하는 방법에 대해 알아본다.</p>
+<h2 id="karma-">karma 설치</h2>
+<pre><code>  npm install karma --save-dev
+  npm install -g karma-cli
+
+  npm install karma-chrome-launcher --save-dev
+
+  # test framework으로 mocha, chai 사용
+  npm install karma-mocha karma-chai --save-dev
+</code></pre><h2 id="">설정</h2>
+<h3 id="-">프로젝트 구조</h3>
+<p>아래와 같은 형태로 프로젝트 구조를 생성한다.</p>
+<pre><code>ROOT/
+    fixture/
+    src/
+        js/
+        stylesheets/
+    test/
+        unit/
+    dist/
+    bower.json
+    package.json
+</code></pre><p>이후 <code>karma init</code> 명령을 통해 기본 karma.conf.js를 생성한다.</p>
+<h3 id="coffeescript-">coffeescript 사용하기</h3>
+<p>karma에서 coffeescript를 사용하기 위해서
+karma-coffee-preprocessor를 설치 후 karma.conf.js에 preprocessor로 등록한다.</p>
+<pre><code>  # karma-coffee-preprocessor 설치
+  npm install karma-coffee-preprocessor --save-dev
+</code></pre><pre><code>    preprocessors: {
+      &#39;**/*.coffee&#39;: [&#39;coffee&#39;],
+    }
+</code></pre><h3 id="fixture-">fixture 관리하기</h3>
+<h5 id="html-fixture-">html fixture 사용하기</h5>
+<p>karma에서 html fixture를 사용하기 위해서
+karma-html2js-preprocessor를 설치 후 karma.conf.js에 preprocessor로 등록한다.</p>
+<pre><code>  # karma-html2js-preprocessor 설치
+  npm install karma-html2js-preprocessor --save-dev
+</code></pre><pre><code>    preprocessors: {
+      &#39;fixture/**/*.html&#39;: [&#39;html2js&#39;]
+    }
+</code></pre><h3 id="report">report</h3>
+<h3 id="-karmaconfjs">전체 karma.conf.js</h3>
+<pre><code class="lang-javascript"><span class="hljs-built_in">module</span>.exports = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(config)</span> </span>{
+  config.set({
+
+    <span class="hljs-comment">// base path that will be used to resolve all patterns (eg. files, exclude)</span>
+    basePath: <span class="hljs-string">''</span>,
+
+
+    <span class="hljs-comment">// frameworks to use</span>
+    <span class="hljs-comment">// available frameworks: https://npmjs.org/browse/keyword/karma-adapter</span>
+    frameworks: [<span class="hljs-string">'mocha'</span>,<span class="hljs-string">'chai'</span>],
+
+
+    <span class="hljs-comment">// list of files / patterns to load in the browser</span>
+    files: [
+      <span class="hljs-string">'components/jquery/dist/jquery.min.js'</span>,
+      <span class="hljs-string">'fixture/**/*.html'</span>,
+      <span class="hljs-string">'src/**/*.*'</span>,
+      <span class="hljs-string">'test/**/*.*'</span>
+    ],
+
+
+    <span class="hljs-comment">// list of files to exclude</span>
+    exclude: [
+    ],
+
+
+    <span class="hljs-comment">// preprocess matching files before serving them to the browser</span>
+    <span class="hljs-comment">// available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor</span>
+    preprocessors: {
+      <span class="hljs-string">'**/*.coffee'</span>: [<span class="hljs-string">'coffee'</span>],
+      <span class="hljs-string">'fixture/**/*.html'</span>: [<span class="hljs-string">'html2js'</span>]
+    },
+
+    <span class="hljs-comment">// test results reporter to use</span>
+    <span class="hljs-comment">// possible values: 'dots', 'progress'</span>
+    <span class="hljs-comment">// available reporters: https://npmjs.org/browse/keyword/karma-reporter</span>
+    reporters: [<span class="hljs-string">'progress'</span>],
+
+
+    <span class="hljs-comment">// web server port</span>
+    port: <span class="hljs-number">9876</span>,
+
+
+    <span class="hljs-comment">// enable / disable colors in the output (reporters and logs)</span>
+    colors: <span class="hljs-literal">true</span>,
+
+
+    <span class="hljs-comment">// level of logging</span>
+    <span class="hljs-comment">// possible values: config.LOG_DISABLE || config.LOG_ERROR || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG</span>
+    logLevel: config.LOG_INFO,
+
+
+    <span class="hljs-comment">// enable / disable watching file and executing tests whenever any file changes</span>
+    autoWatch: <span class="hljs-literal">true</span>,
+
+
+    <span class="hljs-comment">// start these browsers</span>
+    <span class="hljs-comment">// available browser launchers: https://npmjs.org/browse/keyword/karma-launcher</span>
+    browsers: [<span class="hljs-string">'Chrome'</span>],
+
+
+    <span class="hljs-comment">// Continuous Integration mode</span>
+    <span class="hljs-comment">// if true, Karma captures browsers, runs the tests and exits</span>
+    singleRun: <span class="hljs-literal">false</span>
+  });
+};
+</code></pre>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../setup/README.html" class="navigation navigation-prev " aria-label="Previous page: 단위 테스트 w/ Karma"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../setup/w_protractor.html" class="navigation navigation-next " aria-label="Next page: 테스트 w/ Karma, Mocha"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="https://cdn.mathjax.org/mathjax/2.4-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
